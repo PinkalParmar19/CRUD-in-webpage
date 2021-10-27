@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Phonebook</title>
+
+        <link rel="stylesheet" href="mainStyleSheet.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Phonebook</h1>
+
+        <button id="GetButton">Get Data</button>
+        <br>
+        <button id="AddButton">Add</button>
+        <button id="DeleteButton" disabled>Delete</button>
+        <button id="UpdateButton" disabled>Update</button>
+
+        <div id="AddUpdatePanel">
+
+            <div>
+                <div class="formLabel">ID</div><input id="itemIDInput" type="numeric">
+            </div>
+            <div>
+                <div class="formLabel">FirstName</div>
+                <input id="FirstName" type="text"></input>
+            </div>
+            <div>
+                <div class="formLabel">LastName</div><input id="LastName" type="text">
+            </div>
+            <div>
+                <div class="formLabel">Email</div><input id="Email" type="text">
+            </div>
+            <div>
+                <div class="formLabel">PhoneNumber</div><input id="PhoneNumber" type="text">
+            </div>
+            <div>
+                <button id="DoneButton">Done</button>
+                <button id="CancelButton">Cancel</button>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>E-mail</th>
+                <th>Phone Number</th>
+            </tr>
+        </table>
+
+    </body>
+</html>
